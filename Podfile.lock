@@ -1,0 +1,16 @@
+PODS:
+  - PGEZTransition (0.1.0)
+
+DEPENDENCIES:
+  - PGEZTransition
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PGEZTransition
+
+SPEC CHECKSUMS:
+  PGEZTransition: fb320456e2221b09ea233906e13d18c6f8803209
+
+PODFILE CHECKSUM: fa76286b465f4854b5ef13f75dc8b85215912b5e
+
+COCOAPODS: 1.5.3

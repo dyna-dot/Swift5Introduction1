@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		35AE2B2821B97392009FDC34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AE2B2721B97392009FDC34 /* AppDelegate.swift */; };
-		35AE2B2A21B97392009FDC34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AE2B2921B97392009FDC34 /* ViewController.swift */; };
+		35AE2B2A21B97392009FDC34 /* IntroFirstController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AE2B2921B97392009FDC34 /* IntroFirstController.swift */; };
 		35AE2B2D21B97392009FDC34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35AE2B2B21B97392009FDC34 /* Main.storyboard */; };
 		35AE2B2F21B97394009FDC34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35AE2B2E21B97394009FDC34 /* Assets.xcassets */; };
 		35AE2B3221B97394009FDC34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35AE2B3021B97394009FDC34 /* LaunchScreen.storyboard */; };
+		35AE2B3A21BAACEB009FDC34 /* IntroSecondController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AE2B3921BAACEB009FDC34 /* IntroSecondController.swift */; };
+		35AE2B3C21BAAD1E009FDC34 /* IntroThirdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AE2B3B21BAAD1E009FDC34 /* IntroThirdController.swift */; };
+		E9900F7FAF82E42B80CEC814 /* Pods_Swift5Introduction1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F779B7F5E7040CAF24ED76 /* Pods_Swift5Introduction1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		218F3DF30FC2EA9CE081E4F8 /* Pods-Swift5Introduction1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5Introduction1.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift5Introduction1/Pods-Swift5Introduction1.release.xcconfig"; sourceTree = "<group>"; };
+		2F3DBE78FD3C18D8D27958E0 /* Pods-Swift5Introduction1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5Introduction1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift5Introduction1/Pods-Swift5Introduction1.debug.xcconfig"; sourceTree = "<group>"; };
 		35AE2B2421B97392009FDC34 /* Swift5Introduction1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift5Introduction1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35AE2B2721B97392009FDC34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		35AE2B2921B97392009FDC34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		35AE2B2921B97392009FDC34 /* IntroFirstController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroFirstController.swift; sourceTree = "<group>"; };
 		35AE2B2C21B97392009FDC34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35AE2B2E21B97394009FDC34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35AE2B3121B97394009FDC34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35AE2B3321B97394009FDC34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35AE2B3921BAACEB009FDC34 /* IntroSecondController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroSecondController.swift; sourceTree = "<group>"; };
+		35AE2B3B21BAAD1E009FDC34 /* IntroThirdController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroThirdController.swift; sourceTree = "<group>"; };
+		74F779B7F5E7040CAF24ED76 /* Pods_Swift5Introduction1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift5Introduction1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9900F7FAF82E42B80CEC814 /* Pods_Swift5Introduction1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				35AE2B2621B97392009FDC34 /* Swift5Introduction1 */,
 				35AE2B2521B97392009FDC34 /* Products */,
+				843B6D2F450C3AED7B8314C3 /* Pods */,
+				ACA6BD14D05FC1733912D4BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +66,32 @@
 			isa = PBXGroup;
 			children = (
 				35AE2B2721B97392009FDC34 /* AppDelegate.swift */,
-				35AE2B2921B97392009FDC34 /* ViewController.swift */,
+				35AE2B2921B97392009FDC34 /* IntroFirstController.swift */,
+				35AE2B3921BAACEB009FDC34 /* IntroSecondController.swift */,
+				35AE2B3B21BAAD1E009FDC34 /* IntroThirdController.swift */,
 				35AE2B2B21B97392009FDC34 /* Main.storyboard */,
 				35AE2B2E21B97394009FDC34 /* Assets.xcassets */,
 				35AE2B3021B97394009FDC34 /* LaunchScreen.storyboard */,
 				35AE2B3321B97394009FDC34 /* Info.plist */,
 			);
 			path = Swift5Introduction1;
+			sourceTree = "<group>";
+		};
+		843B6D2F450C3AED7B8314C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F3DBE78FD3C18D8D27958E0 /* Pods-Swift5Introduction1.debug.xcconfig */,
+				218F3DF30FC2EA9CE081E4F8 /* Pods-Swift5Introduction1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ACA6BD14D05FC1733912D4BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74F779B7F5E7040CAF24ED76 /* Pods_Swift5Introduction1.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35AE2B3621B97394009FDC34 /* Build configuration list for PBXNativeTarget "Swift5Introduction1" */;
 			buildPhases = (
+				8D23DF9766B9DCA837660D9D /* [CP] Check Pods Manifest.lock */,
 				35AE2B2021B97392009FDC34 /* Sources */,
 				35AE2B2121B97392009FDC34 /* Frameworks */,
 				35AE2B2221B97392009FDC34 /* Resources */,
+				D54DE247DBFD5374E142E1B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +162,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8D23DF9766B9DCA837660D9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift5Introduction1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D54DE247DBFD5374E142E1B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Swift5Introduction1/Pods-Swift5Introduction1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PGEZTransition/PGEZTransition.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PGEZTransition.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift5Introduction1/Pods-Swift5Introduction1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		35AE2B2021B97392009FDC34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35AE2B2A21B97392009FDC34 /* ViewController.swift in Sources */,
+				35AE2B3C21BAAD1E009FDC34 /* IntroThirdController.swift in Sources */,
+				35AE2B2A21B97392009FDC34 /* IntroFirstController.swift in Sources */,
+				35AE2B3A21BAACEB009FDC34 /* IntroSecondController.swift in Sources */,
 				35AE2B2821B97392009FDC34 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,11 +361,13 @@
 		};
 		35AE2B3721B97394009FDC34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F3DBE78FD3C18D8D27958E0 /* Pods-Swift5Introduction1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MCDB63R3AU;
 				INFOPLIST_FILE = Swift5Introduction1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +381,13 @@
 		};
 		35AE2B3821B97394009FDC34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 218F3DF30FC2EA9CE081E4F8 /* Pods-Swift5Introduction1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MCDB63R3AU;
 				INFOPLIST_FILE = Swift5Introduction1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

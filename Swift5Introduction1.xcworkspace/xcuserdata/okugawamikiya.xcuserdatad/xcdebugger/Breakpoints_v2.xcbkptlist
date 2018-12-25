@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swift5Introduction1/IntroFirstController.swift"
+            timestampString = "566233005.084951"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "nextVc"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swift5Introduction1/IntroSecondController.swift"
+            timestampString = "566229556.752642"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift5Introduction1.IntroSecondController.title1.getter : weak Swift.Optional&lt;PGEZTransition.PGTransformLabel&gt;"
+                  moduleName = "Swift5Introduction1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/okugawamikiya/workspace/Swift5Introduction1/Swift5Introduction1/IntroSecondController.swift"
+                  timestampString = "565885432.419609"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift5Introduction1.IntroSecondController.title1.setter : weak Swift.Optional&lt;PGEZTransition.PGTransformLabel&gt;"
+                  moduleName = "Swift5Introduction1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/okugawamikiya/workspace/Swift5Introduction1/Swift5Introduction1/IntroSecondController.swift"
+                  timestampString = "565885432.423196"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "106">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift5Introduction1.IntroSecondController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Swift5Introduction1.IntroSecondController"
+                  moduleName = "Swift5Introduction1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/okugawamikiya/workspace/Swift5Introduction1/Swift5Introduction1/IntroSecondController.swift"
+                  timestampString = "565885432.4253041"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift5Introduction1.IntroSecondController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Swift5Introduction1.IntroSecondController&gt;"
+                  moduleName = "Swift5Introduction1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/okugawamikiya/workspace/Swift5Introduction1/Swift5Introduction1/IntroSecondController.swift"
+                  timestampString = "565885432.427302"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "50">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swift5Introduction1/IntroFirstController.swift"
+            timestampString = "566233005.085614"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "onNext(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
